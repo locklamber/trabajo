@@ -36,5 +36,13 @@ public class ejemplo3 {
 		}
 		
 	}
+	
+	public static void main(String[] ar) {
+
+		ejemplo3 Cuadrante;
+		Cuadrante=new ejemplo3();
+		Cuadrante.inicializar();
+		Cuadrante.Imprimir();
+}
 
 }
