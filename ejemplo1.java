@@ -15,4 +15,13 @@ public class ejemplo1 {
 
 	}
 	
+	public void calculo() {
+		
+		perimetro = 4 * lado;
+		
+		area = lado * lado;
+		
+	}
+
+	
 }
