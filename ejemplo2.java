@@ -19,5 +19,18 @@ public class ejemplo2 {
 		System.out.println("Ingrese el tercer lado del triangulo:");
 		lado3=teclado.nextInt();
 	}
+	
+	public void imprimir() {
+		
+		if (lado1>lado2 && lado1>lado3) {
+			System.out.println("el lado 1 es mayor");
+		}
+		else if (lado2 > lado3) {
+			System.out.println("el lado 2 es mayor ");
+		}else if (lado3 > lado2){
+			System.out.println("el lado 3 es mayor ");
+		}
+		
+		}
 
 }
