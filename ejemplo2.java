@@ -38,5 +38,14 @@ public class ejemplo2 {
 			System.out.println("es equilatero");
 		}
 	}
+	
+	public static void main(String[] ar) {
+
+		ejemplo2 triangulo;
+		triangulo=new ejemplo2();
+		triangulo.inicializar();
+		triangulo.imprimir();
+		triangulo.Equilatero();
+}
 
 }
