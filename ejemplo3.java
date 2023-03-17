@@ -6,43 +6,27 @@ public class ejemplo3 {
 	
 	Scanner teclado = new Scanner(System.in);
 	
-	private int x, y;
-
-	public void inicializar() {
+	int num, c;
+	double total;
 	
-		System.out.println("Ingrese x :");
-		x=teclado.nextInt();
-
-		System.out.println("Ingrese y :");
-		y=teclado.nextInt();
-
+	public int recursivo(){
+	
+		if (num == 0){
+			return 1;
+		}
+		else {
+			return num*recursivo(num-1);
+		}
 	}
-	
-	public void Imprimir() {
-		if (x > 0 && y > 0) {
-			System.out.print("Primer cuadrante");
-		}
-		else if (x < 0 && y > 0) {
-			System.out.print("Segundo cuadrante");
-		}
-		else if (x < 0 && y < 0) {
-			System.out.print("Tercer cuadrante");
-		}
-		else if (x > 0 && y < 0) {
-			System.out.print("Cuarto cuadrante");
-		}
-		else if (x == 0 && y == 0) {
-			System.out.print("Centro del cuadrante ");
-		}
-		
-	}
-	
+
 	public static void main(String[] ar) {
 
-		ejemplo3 Cuadrante;
-		Cuadrante=new ejemplo3();
-		Cuadrante.inicializar();
-		Cuadrante.Imprimir();
+		ejemplo3 factorial;
+		factorial=new ejemplo3();
+		System.out.println("Ingrese el numero");
+		int num = teclado.nextInt():
+		int fact=factorial.recursivo(num);
+		System.out.println(fact);
 }
 
 }
