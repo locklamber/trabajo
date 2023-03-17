@@ -32,5 +32,11 @@ public class ejemplo2 {
 		}
 		
 		}
+	
+	public void Equilatero() {
+		if (lado1 == lado2 && lado1 == lado3) {
+			System.out.println("es equilatero");
+		}
+	}
 
 }
