@@ -31,4 +31,13 @@ public class ejemplo1 {
 		
 	}
 	
+	public static void main(String[] ar) {
+
+		ejemplo1 calculo;
+		calculo = new ejemplo1();
+		calculo.inicializar();
+		calculo.calculo();
+		calculo.imprimir();
+	}
+	
 }
