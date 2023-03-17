@@ -22,6 +22,13 @@ public class ejemplo1 {
 		area = lado * lado;
 		
 	}
-
+	
+	public  void imprimir() {
+		
+		System.out.println("Su perimetro es :" + perimetro);
+	
+		System.out.println("Su area es :" + area);
+		
+	}
 	
 }
