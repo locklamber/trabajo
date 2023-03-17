@@ -17,5 +17,24 @@ public class ejemplo3 {
 		y=teclado.nextInt();
 
 	}
+	
+	public void Imprimir() {
+		if (x > 0 && y > 0) {
+			System.out.print("Primer cuadrante");
+		}
+		else if (x < 0 && y > 0) {
+			System.out.print("Segundo cuadrante");
+		}
+		else if (x < 0 && y < 0) {
+			System.out.print("Tercer cuadrante");
+		}
+		else if (x > 0 && y < 0) {
+			System.out.print("Cuarto cuadrante");
+		}
+		else if (x == 0 && y == 0) {
+			System.out.print("Centro del cuadrante ");
+		}
+		
+	}
 
 }
